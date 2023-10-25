@@ -15,4 +15,9 @@ int main()
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
 	system("pause");
 	return 0;
+
+	//tinh thuong
+	thuong=a/b;
+	system("pause");
+	return 0;
 }
