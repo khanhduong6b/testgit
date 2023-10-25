@@ -11,7 +11,9 @@ int hieu(int a, int b)
 int tich(int a, int b){
 	return a*b;
 };
-float thuong(int a, int b);
+float thuong(int a, int b){
+	return a/b;
+}
 int main()
 {
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
@@ -23,6 +25,11 @@ int main()
 	cout<<"\nTong a+b la: "tong(a,b);
 	cout<<"\nHieu la: "hieu(a,b);
 	cout<<"\nTich cua a va b la "<<tich(a,b)<<endl;
+	system("pause");
+	return 0;
+
+	//tinh thuong
+	cout<<"Thuong la "<<thuong(a,b)<<endl;
 	system("pause");
 	return 0;
 }
